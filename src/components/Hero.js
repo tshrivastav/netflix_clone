@@ -6,7 +6,7 @@ const Hero = ({ children }) => {
     <div
       style={{
         height: "100vh",
-        width: "100vw",
+        width: "100%",
         background: `linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.8) 100%), url(${bg})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
