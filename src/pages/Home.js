@@ -1,4 +1,5 @@
 import React from "react";
+import FAQSection from "../components/FAQSection";
 import FirstSection from "../components/FirstSection";
 import FourthSection from "../components/FourthSection";
 import Header from "../components/Header";
@@ -20,6 +21,8 @@ const Home = () => {
       <ThirdSection />
       <GreyBorder />
       <FourthSection />
+      <GreyBorder />
+      <FAQSection />
       <GreyBorder />
     </div>
   );

@@ -3,7 +3,7 @@ import { AiOutlineRight } from "react-icons/ai";
 const Search = () => {
   return (
     <div>
-      <p className="text-white text-center">
+      <p className="text-white text-center mt-10">
         Ready to watch? Enter your email to create or restart your membership.
       </p>
       <div className="flex flex-col gap-2 md:gap-0 md:flex-row items-center justify-center w-full mt-5">
