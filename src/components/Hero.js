@@ -1,16 +1,16 @@
 import React from "react";
-import bg from "../assests/background.jpg";
+import bgImg from "../assests/background.jpg";
 
-const Hero = ({ children }) => {
+const Hero = ({ children, bg }) => {
   return (
     <div
       style={{
-        height: "100vh",
         width: "100%",
-        background: `linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.8) 100%), url(${bg})`,
+        background: `linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.8) 100%),
+         url(${bg || bgImg})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        padding: "200px 0 0 0 ",
+        padding: "100px 0 ",
       }}
     >
       {children}

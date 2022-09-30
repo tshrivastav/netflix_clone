@@ -6,7 +6,7 @@ import Header from "../components/Header";
 import HomeHero from "../components/HomeHero";
 import SecondSection from "../components/SecondSection";
 import ThirdSection from "../components/ThirdSection";
-import GreyBorder from "./GreyBorder";
+import GreyBorder from "../components/GreyBorder";
 
 const Home = () => {
   return (

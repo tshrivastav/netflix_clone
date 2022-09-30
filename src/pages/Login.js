@@ -38,7 +38,7 @@ const Login = () => {
               onClick={() => goTo("/dashboard")}
               className="text-white bg-myRed rounded-md w-full px-5 py-[5px] "
             >
-              Login
+              {isLogin ? "Login" : "Register"}
             </button>
             <p className="underline underline-myRed text-white">
               {isLogin ? "New to Netflix?" : "Already a member"}{" "}

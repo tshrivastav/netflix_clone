@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../assests/logo.png";
 import { useNavigate } from "react-router-dom";
 
-const Header = () => {
+const Header = ({ isDashboard }) => {
   const goTo = useNavigate();
   return (
     <div className="absolute w-full">
@@ -14,10 +14,10 @@ const Header = () => {
           alt="netflix logo for taruna juice"
         />
         <button
-          onClick={() => goTo("/login")}
+          onClick={() => goTo(isDashboard ? "/profile" : "/login")}
           className="text-white bg-myRed py-[5px] px-5 rounded-md"
         >
-          Sign in
+          {isDashboard ? "Profile" : "Sign in"}
         </button>
       </div>
     </div>
